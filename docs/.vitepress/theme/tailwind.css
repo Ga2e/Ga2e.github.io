@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Isometra';
+    font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+    src: url('/fonts/Isometra-Regular.ttf') format('truetype');
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

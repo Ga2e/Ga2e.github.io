@@ -1,12 +1,16 @@
 
+*{
+     margin: 0;
+    padding: 0;
+}
+
 
 :root{
     --background-color: rgb(0,0,0);
     --font-color: rgb(255,255,255);
     font-family: 'Inter', -apple-system, sans-serif;
     line-height: 24px;
-    margin: 0;
-    padding: 0;
+   
 }
 .dark{
     --background-color: rgb(255,255,255);
@@ -19,3 +23,4 @@
     height: 80px; 
     max-width: 68.75rem;   
 }
+
