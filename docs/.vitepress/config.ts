@@ -1,7 +1,9 @@
+import path from 'node:path'
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  
   title: "Ga2e' Blog",
   description: "everything will be fun",
   themeConfig: {

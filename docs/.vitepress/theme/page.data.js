@@ -9,7 +9,7 @@ export default createContentLoader('posts/*.md', {
         url,
         date: frontmatter.date,
         description: frontmatter.description,
-        excerpt: excerpt
+        excerpt: excerpt.replace(/<[^>]+>/g, '')
       }))
       .sort((a, b) => (b.date > a.date ? 1 : -1))
   },
